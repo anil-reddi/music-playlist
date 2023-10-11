@@ -1,0 +1,64 @@
+.app-container {
+  background-color: #152850;
+  min-height: 100vh;
+}
+.singer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.singer-name {
+  color: #ffffff;
+  font-size: 44px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.role {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.playlist-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+}
+.playlist-heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.search-input {
+  height: 30px;
+  width: 260px;
+  padding: 8px;
+  border-radius: 4px;
+  color: #cbd5e1;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+.playlist-list {
+  padding: 0px;
+  margin: 0px 50px;
+  overflow-y: scroll;
+}
+.no-songs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.no-songs-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
